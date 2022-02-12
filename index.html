@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header>
+
+    <h1 class="title">IP Adress Tracker</h1>
+
+    <div class="div-input">
+      <input type="text" class="ip-search" placeholder="Search for any IP adress or domain">
+      <button type="button" class="btn" onclick="userAction()"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+    </div>
+
+  </header>
+
+  <div class="container-result">
+    <div class="container">
+      <div class="container1">
+        <p class="p-info info">ip adress</p>
+        <h1 class="h1-ip result">192.212.174.101</h1>
+      </div>
+      <div class="container1">
+        <p class="p-info info">location</p>
+        <h1 class="h1-location result">Brooklyn, NY<br>10001</h1>
+      </div>
+      <div class="container1">
+        <p class="p-info info">timezone</p>
+        <h1 class="h1-timezone result">UTC - 05:00</h1>
+      </div>
+      <div class="container1">
+        <p class="p-info info">isp</p>
+        <h1 class="h1-isp result">SpaceX<br>Startlink</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10713.799693450897!2d-0.6745523499999999!3d47.83087645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1644660698065!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <script src="./index.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
